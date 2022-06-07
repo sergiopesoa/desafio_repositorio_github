@@ -2,5 +2,9 @@
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(255, 217, 127);
+}
+.h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
 }
