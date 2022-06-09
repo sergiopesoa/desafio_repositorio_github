@@ -8,3 +8,27 @@
     font-family: 'Courier New', Courier, monospace;
     color: brown;
 }
+.practica img{
+    max-width: 185px;
+    max-height: 185px;
+animation-duration: 4s;
+animation-name: tazaEnPaisaje;
+animation-iteration-count: infinite;
+
+}
+.practica h3:hover{
+    background-color: rgb(115, 70, 12);
+    border-radius: 5px;
+    width: 250px;
+    align-content: center;
+}
+@keyframes tazaEnPaisaje{
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity:1 ;
+    }
+
+}
