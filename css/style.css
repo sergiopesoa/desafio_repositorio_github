@@ -1,34 +1,85 @@
-.practica{
+.practica {
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
     background-color: rgb(255, 217, 127);
 }
-.practica h2{
+
+.practica h2 {
     font-family: 'Courier New', Courier, monospace;
     color: brown;
 }
-.practica img{
+
+.practica img {
     max-width: 185px;
     max-height: 185px;
-animation-duration: 4s;
-animation-name: tazaEnPaisaje;
-animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-name: tazaEnPaisaje;
+    animation-iteration-count: infinite;
 
 }
-.practica h3:hover{
+
+.practica h3:hover {
     background-color: rgb(115, 70, 12);
     border-radius: 5px;
     width: 250px;
     align-content: center;
 }
-@keyframes tazaEnPaisaje{
-    0%{
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: 25px;
+    width: 100%;
+}
+
+.nav li {
+    height: 30px;
+}
+
+.nav li:hover {
+    background-color: rgb(224, 228, 115);
+    border-radius: 5px;
+}
+
+
+
+
+@keyframes tazaEnPaisaje {
+    0% {
         opacity: 0;
-        
+
     }
-    100%{
-        opacity:1 ;
+
+    100% {
+        opacity: 1;
     }
 
 }
+
+.main {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px;
+}
+
+.main img {
+
+    margin: 80px;
+    border-radius: 5px;
+    max-width: 250px;
+    max-height: 250px;
+    transform: scale(1.5);
+    transition: 4s;
+}
+
+.practica {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(184, 117, 9, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
